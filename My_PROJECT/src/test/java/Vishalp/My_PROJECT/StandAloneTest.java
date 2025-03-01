@@ -31,6 +31,10 @@ public class StandAloneTest {
         js.executeScript("document.body.style.zoom='67%'");
 		
 		Thread.sleep(2000);
+		
+		
+		System.out.println("This is writtern by me");
+		System.out.println("This is writtern by me");
 //		
 		driver.findElement(By.id("userEmail")).sendKeys("vishalpetare12@gmail.com");
         driver.findElement(By.id("userPassword")).sendKeys("Vishal@7719");
